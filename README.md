@@ -1,5 +1,5 @@
 # Codemir
 
-Programação é um exercício constante de refatoramento.
+Programação é um exercício constante de refatoração.
 
-Vou escrever testos sobre como eu vejo um pouco da programação e minhas experiencias dentro desse contexto.
+Vou escrever textos sobre como vejo um pouco da programação e minhas experiências dentro desse contexto.
