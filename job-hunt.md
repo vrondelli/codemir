@@ -4,23 +4,27 @@ Então nos últimos tempos estava procurando algum lugar para trabalhar depois d
 
 Duas empresas me passaram um teste desses que eles falam que é pra saber como você programa.
 
-Desde que comecei a programar tive contato com um tal de DDD(Domain driven design), devido as circunstancias as quais eu me propus aprender a programar, nas primeiras linhas de código em um sistema que já estava rodando como mvp, esse conceito de ver aplicação pelo domínio, que é o que realmente importa, pois, é nele que etão as regras de negócio, então como seria se o domínio fosse a maior preocupação em seu ‘software’, você precisa modela-lo de forma em que a comunicação dentro do time e na aplicação esteja em sincronia, fica muito mais fácil produzir ‘software’ de qualidade onde todos estão na mesma pagina, quem conhece a necessidade do público tem que falar com termos que estejam a associados a conceitos no software.
+Desde que comecei a programar tive contato com um tal de DDD(Domain driven design), devido as circunstancias as quais eu me propus aprender a programar, nas primeiras linhas de código em um sistema que já estava rodando como mvp, esse conceito de ver aplicação pelo domínio, que é o que realmente importa, pois, é nele que estão as regras de negócio.
+
+# Então como seria se o domínio fosse a maior preocupação em seu software?
+
+você precisa modela-lo de forma em que a comunicação dentro do time que todos os times envolvidos no projeto e o software em si estejam em sincronia, fica muito mais fácil produzir software de qualidade quando todos estão na mesma pagina, quando todos falam a mesma lingua.
+
+Logo quem conhece a necessidade do público tem que falar com termos que estejam a associados a conceitos no software.
 
 E qual a relação do DDD, ou pelo menos o meu entendimento do que é isso, que inclusive esta em constante evolução com esses testes?
 
-Quando fui faze-los a minha grande preocupação foi como encontrar conceitos chaves dentro das especificações e traduzir em código, de uma forma padronizada, não sei se são designes patterns, mas neles eu me proponho a produzir padrões paras construções das regras de negócio do projeto.
+Quando fui faze-los a minha grande preocupação foi como encontrar conceitos e palavras chaves, que traduzem e condensam as regras de negocio dos projetos, dentro das especificações fornecidas do projeto ou documentação e traduzir em código, de uma forma padronizada, assim criando uma linguagem de dominio, permitindo que a informação corra de uma ponta até a outra no desenvolvimento do projeto, assim possibilitando que todos os players envolvidos saibam exatamente do que estão falando e sabem onde encontrar as definições dos termos dessa linguagem, seja em documentações ou no codigo.
 
-O Primeiro é para uma empresa que o CEO é entrou em 2020 para forbes antes de 30, com apenas 24 anos. O teste era criar 2 microserviços em linguagens distintas que retorna uma lista de produtos com desconto.
+O Primeiro teste é para uma empresa que o CEO entrou em 2020 para forbes antes de 30, com apenas 24 anos. O teste era criar 2 microserviços em linguagens distintas que retorna uma lista de produtos com desconto.
 
-E outro era para outra empresa que está em um ponto muito legal no mercado. Apostaria nela, um serviço de validação de boletos, o mais legal desse que a situação era bem real, onde você tem que ir na documentação do banco do brasil e extrair a regra de validação.
+E outro era para outra empresa que está em um ponto muito legal no mercado. Apostaria nela, um serviço de validação de boletos, o mais legal desse teste que a situação era bem real, onde você tem que ir na documentação do banco do brasil e extrair a regra de validação.
 
 # Cenarios bem distintos um do outro:
 
-O primeiro eu não terminei porque não consegui terminar uma parte, pois fiquei com preguiça de aprender uma outra linguagem além de javascript/typescript, até pensei sem dar um migué e fazer um serviço em js e outro em ts, mas fiquei com vergonha, me diverti bastante em tentar criar as regras de descontos de uma forma que se criasse um padrão para novas regras e esse padrão fosse mais maleável possível em questão de estratégia de negócio, estava até bem confiante em conseguir se não tivesse que fazer uma api em outra linguagem, até tentei em python, mas minha vontade de fazer da melhor forma possivel me deixou na preguiça porque nao queria entregar uma parte razoavelmente boa e outra de qualquer jeito.
+O primeiro eu não terminei porque não consegui terminar, Fiquei com preguiça de aprender uma outra linguagem além de javascript/typescript, até pensei sem dar um migué e fazer um serviço em js e outro em ts, mas fiquei com vergonha, me diverti bastante em tentar criar as regras de descontos de uma forma que se criasse um padrão para novas regras e esse padrão fosse mais maleável possível em questão de estratégia de negócio, estava até bem confiante em conseguir passar no teste, se não tivesse que fazer uma api em outra linguagem, até tentei em python, mas minha vontade de fazer da melhor forma possivel me deixou na preguiça porque nao queria entregar uma parte razoavelmente boa e outra de qualquer jeito.
 
-Já o segundo eu fiz só metade porque o tempo era aperto, o recrutador tava me acelerando um pouco até, que era a validação do boleto de título bancário, mas consegui passar e curti bastante fazer, nesse até pensei em um pouco em tentar fazer de uma forma mais funcional, mas ia me gastar mais tempo do que fazer de uma mais imperativativa, foi um exercício legal de operação de dados, nesse passei no teste.
-
-Os dois casos aconteceram em períodos diferentes.
+Já o segundo eu fiz só metade porque o tempo era apertado, o recrutador até estava me acelerando um pouco, curti bastante fazer a validação do boleto de título bancário, foi um exercício legal de operação de dados, nesse passei no teste. nesse até pensei em um pouco em tentar fazer de uma forma mais funcional, mas ia me gastar mais tempo do que fazer de uma mais imperativativa,
 
 # Segue as regras do primeiro:
 
