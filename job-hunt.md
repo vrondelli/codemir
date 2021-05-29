@@ -1,20 +1,20 @@
 # A caça do trabalho(Job Hunt)
 
-Então nos últimos tempos estava procurando algum lugar para trabalhar depois de tirar ferias.
+Então há um tempo estava procurando algum lugar para trabalhar depois de tirar ferias.
 
 Duas empresas me passaram um teste desses que eles falam que é pra saber como você programa.
 
-Desde que comecei a programar tive contato com um tal de DDD(Domain driven design), devido as circunstancias as quais eu me propus aprender a programar, nas primeiras linhas de código em um sistema que já estava rodando como mvp, esse conceito de ver aplicação pelo domínio, que é o que realmente importa, pois, é nele que estão as regras de negócio.
+Desde que comecei a programar tive contato com um tal de DDD(Domain driven design), já nas primeiras linhas de código essa filosofia de ver o software pela otica do domínio, que é o que realmente importa, porque é nele que estão as regras de negócio e o core do business, já estava presente.
 
 # Então como seria se o domínio fosse a maior preocupação em seu software?
 
-você precisa modela-lo de forma em que a comunicação dentro do time que todos os times envolvidos no projeto e o software em si estejam em sincronia, fica muito mais fácil produzir software de qualidade quando todos estão na mesma pagina, quando todos falam a mesma lingua.
+Você precisa modela-lo de forma em que a comunicação entre todos os times envolvidos no projeto e o software em si estejam em sincronia, fica muito mais fácil produzir software de qualidade quando todos estão na mesma pagina, quando todos falam a mesma lingua.
 
-Logo quem conhece a necessidade do público tem que falar com termos que estejam a associados a conceitos no software.
+Portanto é importante que quem conhece a necessidade do público, o produto, tem de falar com termos que estejam a associados a conceitos no software.
 
 E qual a relação do DDD, ou pelo menos o meu entendimento do que é isso, que inclusive esta em constante evolução com esses testes?
 
-Quando fui faze-los a minha grande preocupação foi como encontrar conceitos e palavras chaves, que traduzem e condensam as regras de negocio dos projetos, dentro das especificações fornecidas do projeto ou documentação e traduzir em código, de uma forma padronizada, assim criando uma linguagem de dominio, permitindo que a informação corra de uma ponta até a outra no desenvolvimento do projeto, assim possibilitando que todos os players envolvidos saibam exatamente do que estão falando e sabem onde encontrar as definições dos termos dessa linguagem, seja em documentações ou no codigo.
+Quando fui faze-los a minha grande preocupação foi em encontrar conceitos e palavras chaves, que traduzem e condensam as regras de negocio dos projetos, dentro das especificações fornecidas do projeto ou documentação e traduzir em código, de uma forma padronizada, assim criando uma linguagem de dominio, permitindo que a informação corra de uma ponta até a outra no desenvolvimento do projeto, assim possibilitando que todos os players envolvidos saibam exatamente do que estão falando e sabem onde encontrar as definições dos termos dessa linguagem, seja em documentações ou no codigo.
 
 O Primeiro teste é para uma empresa que o CEO entrou em 2020 para forbes antes de 30, com apenas 24 anos. O teste era criar 2 microserviços em linguagens distintas que retorna uma lista de produtos com desconto.
 
